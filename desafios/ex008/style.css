@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body {
+    background-color: salmon;
+}
+
+main {
+    min-width: 400px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: salmon;
+}
+
+main > article > p {
+    color: black;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+}
